@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список терминов</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .leftimg{
+            float: left;
+            margin: 7px 7px 7px 0px;
+            
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Список терминов</h1>
+    
+    <a href = "index.html"><h5>Главная</h5></a>
+    
+   </header>
+   <main>
+        <section class="about" id ="about4">
+                
+                    
+            <p>
+               <dt> Активация</dt><dd> Обязательный процесс запуска iPhone в эксплуатацию, заключающийся в передаче информации, считываемой из телефона, с установленной SIM-картой официального оператора, через iTunes на сервер Apple. В базе на сервере проверяется наличие в том числе и контракта для данной SIM-карты, если информация совпадает, на телефон передается соответствующий код и устанавливается активное состояние для модуля lockdownd. Обход активации становится возможным после jailbreak'а, когда открывается доступ к lockdownd и искусственное изменение его статуса на нужный. После этого открывается доступ к SpringBoard, «рабочему столу» телефона. См. также Unlock/Разлочка.</dd><br>
+
+<dt>Виргинизация</dt><dd> дословно «возвращение девственности». Процесс восстановление содержимого baseband'а прошивки 1.0.2, поврежденного первыми, грубыми методами разлочивания (AnySIM 1.0.x). В результате после официального обновления прошивки на 1.1.1 такой аппарат превращается в «кирпич», то есть полностью теряет функциональность. Для исправления ситуации была разработана процедура восстановления повреженного содержимого baseband'а, возвращение его в состояние, когда телефон опять превращается в залоченный, и baseband у него цел. Теперь его уже можно разлочивать более интеллигентными методами (AnySim 1.1), и он не боится обновлений от Apple.</dd><br>
+
+<dt>AppTap (он же Installer.app)</dt><dd> Пакетный менеджер для iPhone. Он позволяет с помощью WiFi или EDGE скачивать и устанавливать, а так же обновлять и удалять приложения с различных репозитариев (хранилищ софта).</dd><br>
+
+<dt>BB/Baseband </dt><dd> Радиомодуль в телефоне, который отвечает за работу через антенну, радиоэфир. Внутри BB есть свой собственный загрузчик, который следит в том числе и за прошивкой микропрограммы модема радиомодуля, не позволяя выполнять с ней каких-либо преобразований без соответствующего крипто-ключа (secpack). Изменение же прошивки BB и позволяет произвести отвязку модема от официальной сим-карты оператора, это и называется Unlock/Разлочка.</dd><br>
+
+<dt>Downgrade</dt><dd> противоп. Upgrade. Откат прошивки до более ранней версии (н-р, 1.1.2 >> 1.0.2).</dd><br>
+
+            <p>Код программы</p>
+            <pre><code>function checkParent (src, dest) 
+                while (src != null) {
+                  if (src.tagName == dest) return src
+                  src = src.parentElement
+                }
+                return null</code></pre>
+            
+        </section>
+        
+            
+        <section class="articles" id = "articles">
+            
+        </section>
+   </main>
+   <footer>
+    <p>&copy; Сальников Игорь, 2024 год</p>
+    <p>Вы также можете найти <a href="https://vk.com/" target="_blank" class = "link">Здесь<img src="images/icons8-vk-50.png" alt="vk" class="vk"></a></p>
+    <p><a href="tel:+789997776655" class = "link">+789997776655<img src="images/phone.svg" alt="vk" class="vk"></a></p>
+    <p><a href="https://www.google.com/intl/ru/gmail/about/" target="_blank" class = "link">gmailcom@gmail.com<img src="images/chat-square-text.svg" alt="vk" class="vk"></a></p>
+</footer>
+
+</body>
+</html>
